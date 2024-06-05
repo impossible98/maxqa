@@ -1,0 +1,17 @@
+[project]
+name = "maxqa"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "impossible98", email = "christoleavenow@outlook.com"},
+]
+dependencies = [
+    "django>=4.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
